@@ -1,14 +1,45 @@
 * {
     background-color: #0B4F6C;
     color: #FBFBFF;
+    padding-bottom: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: medium;
 }
 
-button {
-    display: flex
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: #040F16;
+}
+
+a, li {
+    background-color: #040F16;
+    color: #01BAEF;
+    font-size: large;
+}
+
+a > li {
+    padding-left: 100px;
 }
 
 div {
     display: grid;
+    grid-template-columns: 150px;
 }
+
+p, label {
+    background-color: #B80C09;
+    padding-left: 5px;
+}
+
+img {
+    float: right;
+    width: 200px;
+}
+
 
 https://coolors.co/b80c09-0b4f6c-01baef-fbfbff-040f16
