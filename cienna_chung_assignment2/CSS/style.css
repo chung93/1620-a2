@@ -3,5 +3,12 @@
     color: #FBFBFF;
 }
 
-felx/grid, font
+button {
+    display: flex
+}
+
+div {
+    display: grid;
+}
+
 https://coolors.co/b80c09-0b4f6c-01baef-fbfbff-040f16

@@ -10,6 +10,8 @@
     <title>It's Budget Time Baby!!!!!</title>
     <meta name="description" content="Heard You Got Money Homie">
 </head>
+
+
 <body>
     <nav>
         <ul>
@@ -18,6 +20,43 @@
             <a href = "hi.html"><li>CONTACT</li></a>
         </ul>
     </nav>
-    <button>New Budget</button>
+
+
+    <div class = "bform">
+        <form action = "" id = "addForm">
+           <label>Make a budget</label>
+           <input type = "number" id = "number" /> <br>
+           <button type = "submit">Add Budget</button>
+         </form>
+    </div>
+
+
+    <div class = "format">
+        <form action = "" id = "newForm">
+            <br>
+            <label>Budget</label>
+            <div class = "enterNum">
+                <label>Enter amount</label>
+                <input type = "number" id = "amtNum" />
+            </div>
+
+            <button type = "submit" id = "submitAmt">Add</button>
+        </form>
+    </div>
+
+
+    <div class = "editForm">
+        <form action = "" id = "edit">
+           <div class = "enterEdit">
+               <label>Edit your expense</label>
+               <input type = "text" id = "editNum" />
+           </div>
+
+           <button type = "submit">Save changes</button>
+        </form>
+     </div>
+
+     <button type = "click" id = "delBudget">Delete Budget</button>
+
 </body>
 </html>
